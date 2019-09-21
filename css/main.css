@@ -14,7 +14,7 @@ header, footer {
 }
 #carrie {
     font-size: 1.9rem;
-    padding: 1rem;
+    padding-left: 60px;
 
 }
 #family {
@@ -27,7 +27,7 @@ header, footer {
 }
 #cit {
     font-size: 1.5rem;
-    border-bottom: 2px; Solid black;
+    border-bottom: 2px; color: black;
 
 }
 footer {
