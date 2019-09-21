@@ -1,5 +1,4 @@
 body {
-    Font-size: 18px;
     line-height: 1.5;
 
 }
@@ -13,11 +12,12 @@ header, footer {
     border-radius: 10px;
     text-align: center;
 }
-header {
+#carrie {
+    font-size: 1.9rem;
     padding: 1rem;
 
 }
-header img {
+#family {
     float: right;
     margin: 10px;
     border:1px solid #000;
@@ -25,6 +25,12 @@ header img {
 
 
 }
+#cit {
+    font-size: 1.5rem;
+    border-bottom: 2px; Solid black;
+
+}
 footer {
-    padding: .5rem;
+    padding: 1rem;
+
 }
