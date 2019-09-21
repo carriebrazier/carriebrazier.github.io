@@ -1,0 +1,24 @@
+body {
+    Font-size: 18px;
+    line-height: 1.5;
+
+}
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+header, footer {
+    background-color: #008081;
+    color: #fff;
+    text-align: center;
+}
+header {
+    padding: 1rem;
+
+}
+header img {
+    float: right;
+    margin: 10px;
+    border:1px solid #000;
+
+}
