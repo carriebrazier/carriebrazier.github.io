@@ -21,7 +21,7 @@ header img {
     float: right;
     margin: 10px;
     border:1px solid #000;
-    Height: 300px;
+    max-width: 200px;
 
 
 }
