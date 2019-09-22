@@ -20,8 +20,9 @@ header, footer {
 #family {
     float: right;
     margin: 10px;
+    box-shadow: 0 15px 15px 0 color #808080;
     border:1px solid #000;
-    max-width: 200px;
+   
 
 
 }
