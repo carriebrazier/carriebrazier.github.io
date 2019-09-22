@@ -2,15 +2,15 @@ body {
     line-height: 1.5;
 
 }
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
 #family {
     float: right;
     margin: 10px;
     box-shadow: 0 15px 15px 0 color #808080;
     border:1px solid #000;
-}
-header, main, footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
 }
 header, footer {
     background-color: #008081;
