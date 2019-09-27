@@ -12,8 +12,6 @@ h1 {
 #family {
     font-family: 'Anton', sans-serif;
     margin: 10px;
-    box-shadow: 0 0 30px #808080;
-    border: 1px solid #000;
 }
 header, footer {
     background-color: #008081;
