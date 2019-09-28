@@ -3,6 +3,7 @@ body {
 
 }
 header, main, footer {
+    font-family: 'Anton', sans-serif;
     margin: 1.25rem auto;
     max-width: 760px;
 }
@@ -10,7 +11,6 @@ h1 {
     font-size: 1.5rem;
 }
 #family {
-    font-family: 'Anton', sans-serif;
     margin: 10px;
 }
 header, footer {
