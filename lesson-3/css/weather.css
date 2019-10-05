@@ -3,6 +3,7 @@ body {
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
 
+
 /* phone or baseline views **************************/
 header,
 footer {
@@ -130,7 +131,13 @@ footer {
 @media only screen and (min-width: 60em) {
 	nav a {
 		font-size: 1.1rem;
-	}
+    }
+    #pics {
+        display: flex;
+    }
+    #logo {
+        float: right;
+    }
 	main {
 		
 	}
