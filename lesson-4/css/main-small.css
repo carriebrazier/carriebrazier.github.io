@@ -50,3 +50,7 @@ nav {
 		color: yellow;
 	}
 }
+<script language="Javascript">
+        document.write("Last modified on: " + document.lastModified +"");
+        </SCRIPT>
+        <a href="http://www.byui.edu/online"> BYUI Learning Online </a>
