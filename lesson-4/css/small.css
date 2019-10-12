@@ -30,9 +30,11 @@ header img {
 footer {
     background-color: #b4dfe5;
     color: #303c6c;
-    display: flex;
-	align-items: center;
-	justify-content: center;
+    
+	
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     padding: 10px;
     border-radius: 5px;
 }
