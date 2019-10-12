@@ -15,6 +15,13 @@ header {
     border-radius: 5px;
     font-family: 'Fjalla One', sans-serif;
 }
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
 
 header img {
     width: 88px;
