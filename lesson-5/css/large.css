@@ -1,0 +1,12 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 2rem;
+    }
+ .pic {
+     max-height: 424px;
+ }
+ .map {
+     max-width: 650px;
+ }
+}
