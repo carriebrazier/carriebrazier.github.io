@@ -132,9 +132,9 @@ main section{
       display: flex;
       }
       
-.pic {
+/*.pic {
     max-height: 400px;
-}
+}*/
 .fall {
     float: none;
     max-width: 450px;
