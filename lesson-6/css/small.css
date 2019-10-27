@@ -172,23 +172,14 @@ th, td {
     border: none;
   }
   .map {
-      display: none;
-        border: 1px solid #bbb;
-        max-width: 450px;
+    display: none;
+    border: 2px solid #bbb;
+    max-width: 600px;
         
     }
     .contact {
-        text-align: center;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        margin-top: 20px;
-        margin-bottom: 0px;
-      }
-
-.info {
-          float: right;
+    text-align: center;
+    font-size: 1.5em;
       }
       
  .social {
