@@ -40,17 +40,24 @@
     <main>
         <h2>Preston, Idaho</h2>
 	<div class="herodiv">
-		<figure class="field">
-            <img src="images/image-0.jpg" alt="image of a field and sky"
-            srcset="images/image-1.jpg 1x, images/image-2.jpg 2x, images/image-3.jpg 3x">
-        </figure>
+		<picture>
+            <!--<source media="(min-width: 300px)" srcset="images/image-2.jpg">
+            <source media="(min-width: 500px)" srcset="images/image-3.jpg">
+            <source media="(min-width: 800px)" srcset="images/image-3.jpg">
+            <img src="images/image-0.jpg" alt="image of a field and sky">-->
+            <source srcset="images/image-2.jpg" media="(min-width:481px) and (max-width: 670px)">
+            <source srcset="images/image-3.jpg" media="(min-width:671px) and (max-width: 899px)">
+            <source srcset="images/image-0.jpg" media="(min-width:900px)">
+            <img id="preston-6-photo" src="images/image-0.jpg"
+               alt="blue sky and mountains">
+        </picture>
 		<section class="stats">
 			<h3>Weather Summary</h3>
-			<p>Currently: <span id="gender">Sunny</span</p>
-			<p>High: <span id="age">76*</span></p>
-            <p>Wind Chill: <span id="shots">*F</span></p>
-            <p>Humidity: <span id="shots">69%</span></p>
-            <p>Wind Speed: <span id="shots">5 mph</span></p>
+			<p>Currently: <span id="">Sunny</span</p>
+            <p>High: <span id="temperature">43</span> &deg;F</p>
+            <p class='windchill'>Wind Chill: <span id='windchill'>?</span> &deg;F</p>
+            <p>Humidity: <span id="">69%</span></p>
+            <p>Wind Speed: <span id='windspeed'>7</span> mph</p>
 		</section>
 	</div>
     <div id="forecast">
@@ -98,7 +105,7 @@
                         
                 </p>
             </section>
-            <section>
+            <section class="clearfix">
                 <div class="contact">
                     <h3>Contact information</h3>
                     <img class="map" src="images/map.jpg">
@@ -114,7 +121,8 @@
     <footer>
         <p>&copy;<span id="year"></span> | Carrie S. Brazier | <span id="date"></span></p>
 
-<script src="js/js.js"></script>       
+<script src="js/js.js"></script> 
+<script src="js/windchill.js"></script>      
 
     </footer>
 </body>
