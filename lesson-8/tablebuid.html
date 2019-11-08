@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CIT 230 - Table Build Practice - Robert Trammel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">    
+        <meta name="description" content="Web page for practicing utilization of table structures in HTML">
+        <link rel="stylesheet" href="small.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>WebFont.load({ google: { families: [ 'Ubuntu: 300,400' ] } })</script>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">ACME Wildwest</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="fields">
+                    <th>Period</th>
+                    <th>Sales</th>
+                    <th>Sales Goal</th>
+                </tr>
+                <tr class="data">
+                    <td>August</td>
+                    <td>$3,590</td>
+                    <td>$4,000</td>
+                </tr>
+                <tr class="data">
+                    <td>September</td>
+                    <td>$4,420</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr class="data">
+                    <td>October</td>
+                    <td>$4,870</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr class="data">
+                    <td>November</td>
+                    <td>$8,610</td>
+                    <td class="goal-met">$7,500</td>
+                </tr>
+                <tr class="data">
+                    <td><i>Black Friday</i></td>
+                    <td colspan="2">$3,200</td>
+                </tr>
+                <tr class="data">
+                    <td>December</td>
+                    <td>$6,820</td>
+                    <td>$7,500</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="4">Compiled 11.7.2019 by Carrie Brazier</td></tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

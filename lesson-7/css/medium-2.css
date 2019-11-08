@@ -16,7 +16,6 @@
     
 
 	.grid-container {
-        grid-column: block;
         grid-template-columns: auto auto;
 	}
 

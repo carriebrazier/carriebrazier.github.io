@@ -1,0 +1,54 @@
+:root{
+    --data-row-secondary : #e7f0ed;
+    --data-row-primary : #e7ffed;
+    --fields-color : #628ca6;
+    --title-color : #7fb9c2;
+}
+
+body{
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+table{
+    border: 1px solid darkgray;
+    border-collapse:collapse;
+    box-shadow: 10px 10px 10px 0px var(--fields-color);
+    margin:auto;
+}
+
+thead, tfoot{
+    background-color : var(--title-color);
+}
+
+thead{
+    font-size:2em;
+}
+
+td, th{
+    border: 1px solid darkgray;
+    padding:.5em;
+    text-align: center;
+}
+
+tbody tr{
+    background-color: var(--data-row-primary);
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--data-row-secondary);
+}
+
+#fields{
+    background-color: var(--fields-color);
+    color: #FFF;
+    font-size: 1.2em;
+}
+
+.goal-met{
+    background-color: var(--fields-color);
+    color: #FFF;
+}
+
+tfoot{
+    font-size: .7em;
+}

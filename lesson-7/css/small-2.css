@@ -4,6 +4,7 @@
      }
     }
 body {
+    display: block;
 	font-size: 16px;
     font-family: "Sansita", Ubuntu, sans-serif;
     
@@ -32,7 +33,6 @@ header img {
     width: 88px;
     padding: 10px;
 }
-
 .grid-container {
     display: grid;
     grid-gap: 23px;
@@ -61,6 +61,15 @@ header img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+  .gallery {
+    max-width: 100%;
+}
+
+main,
+footer {
+    margin: 0 auto;
+    max-width: 767px;
+}
 footer {
     background-color: #b4dfe5;
     color: #303c6c;
