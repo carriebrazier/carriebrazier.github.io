@@ -107,6 +107,7 @@
         text-align: center;
 
     }
+   
     .towns section img {
         float: left;
         width: 65%;
@@ -120,7 +121,7 @@
     }
     .towns section {
         overflow: auto;
-        padding: 20px;
+        padding: 0px;
     }
     .towns section:nth-child(2) img {
         float: right;
@@ -129,7 +130,15 @@
     .towns section:nth-child(2) {
         text-align: center;
     }
+   
     
+     
+      
+    
+        h2 {
+            letter-spacing: .07rem;
+        }
+   
 	/* Grid *********************/
 			/*nav ul { 
 				display: grid;
@@ -167,5 +176,8 @@
 		width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
-	}
+    }
+    .fall {
+        float: right;
+    }
 }

@@ -88,10 +88,10 @@ main {
     font-size: 3rem;
   }
   .towns section {
-    margin: 20px;
+    margin: 5px;
     background-color: #b4dfe5;
-    box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
-    padding-bottom: 20px;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.4);
+    padding-bottom: 10px;
   }
   .towns section img {
     width: 100%;
@@ -128,6 +128,72 @@ header img {
     width: 88px;
     padding: 10px;
 }
+table {
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+.herodiv {
+        margin: 10px auto;
+        position: relative;
+        display: flex;
+      }
+.herodiv img {
+      
+      display: flex;
+      }
+      
+.pic {
+    max-height: 400px;
+}
+.fall {
+    float: none;
+    max-width: 450px;
+    margin: 15px;
+    
+
+}
+
+.stats {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1rem;
+	box-shadow: 0 0 30px #111;
+    opacity: .7;
+    color: black;
+    
+}
+th, td {
+    justify-content: center;
+    color: #303c6c; 
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #b4dfe5;
+    box-shadow: 0 0 10px #777;
+  
+  }
+  .sun {
+    max-width: 50px;
+    border: none;
+  }
+  .map {
+    display: none;
+    border: 2px solid #bbb;
+    max-width: 600px;
+        
+    }
 /*.grid-container {
     display: grid;
     grid-gap: 23px;
