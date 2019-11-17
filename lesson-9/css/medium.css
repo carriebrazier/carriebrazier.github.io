@@ -99,6 +99,36 @@
         margin-bottom: 20px;
         align-items: center;
     }
+    .towns {
+        padding-bottom: 0px;
+    }
+    .towns section {
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+    .towns section img {
+        float: left;
+        width: 65%;
+    }
+    .towns section h1 {
+        margin: 10px;
+        color: #303c6c;
+    }
+    .towns section h3, .towns section h4 {
+        margin-right: 10px;
+    }
+    .towns section {
+        overflow: auto;
+        padding: 20px;
+    }
+    .towns section:nth-child(2) img {
+        float: right;
+        padding: 0px;
+    }
+    .towns section:nth-child(2) {
+        text-align: center;
+    }
     
 	/* Grid *********************/
 			/*nav ul { 

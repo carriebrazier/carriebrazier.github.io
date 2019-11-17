@@ -60,9 +60,51 @@
 
 
 /* phone or baseline views **************************/
-.cards {
-    display: grid;
-    grid-template-columns: 1fr;
+main {
+    margin-top: -20px;
+    background-color:#fbe8a6; 
+}
+    .title {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 3rem;
+        color: #303c6c;
+        text-shadow: 1px 1px 1px white;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 0px;
+        
+    }
+  .towns {
+    background-color: #fbe8a6;
+    justify-content: center;
+    
+  }
+  .towns section h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #303c6c;
+    text-shadow: 1px 1px 1px white;
+    margin: -70px 0px 20px 10px;
+    font-size: 3rem;
+  }
+  .towns section {
+    margin: 20px;
+    background-color: #b4dfe5;
+    box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+    padding-bottom: 20px;
+  }
+  .towns section img {
+    width: 100%;
+  }
+  .towns section h3 {
+    font-family: 'Fjalla', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 0px 10px 20px;
+  }
+  .towns section h4 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 0px 0px 20px;
+    font-size: 1.2rem;
   }
 
 header {
@@ -139,7 +181,7 @@ h3 {
     font-size: 2rem;
     color: #f4976c;
     font-family: 'Fjalla One', sans-serif;
-    text-shadow:1px 1px 2px #000;
+    text-shadow:1px 1px 1px #000;
 
 }
 h4 {
