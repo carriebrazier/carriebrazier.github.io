@@ -62,22 +62,30 @@
 		</section>
 	</div>
     <div id="forecast">
-            <table>
+        
+        <table>
+            <thead>
                 <tr>
-                    <th>Fri </th>
-                    <th>Sat </th> 
-                    <th>Sun</th>
-                    <th>Mon</th>
-                    <th>Tues</th>
-                </tr>
-                <tr>
-                    <td><img class="sun" src="images/partlycloudy-icon.gif"><br> 68</td>
-                    <td><img class="sun" src="images/sunny-icon.gif"><br> 76</td>
-                    <td><img class="sun" src="images/cloud-icon.gif"><br> 68</td>
-                    <td><img class="sun" src="images/stormy-icon.gif"><br> 59</td>
-                    <td><img class="sun" src="images/rain-icon.gif"><br> 64</td>
-                </tr>
-            </table>
+					<th class="sun"><span id="names1"></span></th>
+					<th class="sun"><span id="names2"></span></th>
+					<th class="sun"><span id="names3"></span></th>
+					<th class="sun"><span id="names4"></span></th>
+					<th class="sun"><span id="names5"></span></th>
+				</tr>
+				<tr>
+					<td class="sun"><img id="icon1" src="/" alt="/"><br /><span id="day1"></span>
+						&#8457;</td>
+					<td class="sun"><img id="icon2" src="/" alt="/"><br /><span id="day2"></span>
+						&#8457;</td>
+					<td class="sun"><img id="icon3" src="/" alt="/"><br /><span id="day3"></span>
+						&#8457;</td>
+					<td class="sun"><img id="icon4" src="/" alt="/"><br /><span id="day4"></span>
+						&#8457;</td>
+					<td class="sun"><img id="icon5" src="/" alt="/"><br /><span id="day5"></span>
+						&#8457;</td>
+				</tr>
+            </tbody>
+        </table>
         </div>
         
             <section>
@@ -124,7 +132,8 @@
 
 <script src="js/js.js"></script> 
 <script src="js/weatherapi.js"></script>
-<script src="js/windchill.js"></script>      
+<script src="js/windchill.js"></script>
+<script src="js/table.js"></script>      
 
     </footer>
 </body>
