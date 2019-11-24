@@ -5,16 +5,14 @@ const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
 fetchAPI = (apiURL, num) =>  {
   fetch(apiURL)
   .then((response) => response.json())
-  .then((jsObject) => {
+  .then((jsObject) => {   switch(num) {
+    
+    case 2:
+      this.fiveDay(jsObject);
+      break;
+  }
 
-    switch(num) {
-      case 1:
-        this.summaryBox(jsObject);
-        break;
-      case 2:
-        this.fiveDay(jsObject);
-        break;
-    }
+ 
   });
 }
 fiveDay = (jsObject) => {
