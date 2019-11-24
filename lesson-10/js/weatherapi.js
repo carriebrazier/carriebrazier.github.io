@@ -1,13 +1,17 @@
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=9cabcd53024a11057d12175fbbcc9858";
-fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
-    document.getElementById('current-temp').textContent = jsObject.main.temp;
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-const desc = jsObject.weather[0].description;  // note how we reference the weather array
-document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);
-  });
+fetch(weatherAPIURL)
+   .then((response) => response.json())
+   .then((jsObject) => {
+      console.log(jsObject);
+      const tempF = jsObject.main.temp.toFixed(0);
+      const windSpeedMPH = jsObject.wind.speed.toPrecision(2);
+      const windChillF = windChill(tempF, windSpeedMPH);
+      document.getElementById('temperature').textContent = tempF;
+      document.getElementById('hightemp').textContent = jsObject.main.temp_max.toFixed(0);
+      document.getElementById('windspeed').textContent = windSpeedMPH;
+      document.getElementById('windchill').textContent = windChillF;
+      document.getElementById('humidity').textContent = jsObject.main.humidity.toFixed(0);
+      document.getElementById('description').textContent = jsObject.weather[0].description;
+   });
+
   
