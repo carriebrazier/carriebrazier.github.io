@@ -1,0 +1,321 @@
+@media only screen and (min-width:0) and (max-width: 32.5em) {
+    #hide { 
+      display: none;
+     }
+    }
+    body {
+      display: block;
+        font-size: 16px;
+        font-family: 'Fjalla One', sans-serif;
+        
+    }
+    /*body {
+        background-color:  #b4dfe5; 
+        font-family: 'Fjalla One', sans-serif;
+    }
+    /*main {
+    
+        margin: 0 auto;
+        width: 100%;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    
+      header {
+        text-align: center;
+        color: rgb(39, 61, 107);
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 30pt;
+    }
+    h2 {
+        color: white;
+        font-size: 20pt;
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+        line-height: .3rem;
+        color: #b4dfe5;
+    }
+    section {
+        margin: .5rem;
+        padding: .5rem;
+        background-color: #303c6c;;
+        border: 1px solid black;
+        box-shadow: 3px 3px 3px 0 black;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+        width: 70%;
+        box-shadow: 3px 3px 3px 0 black;
+    }
+
+
+/* phone or baseline views **************************/
+main {
+    margin-top: -20px;
+    background-color:#fbe8a6; 
+}
+    .title {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 3rem;
+        color: #303c6c;
+        text-shadow: 1px 1px 1px white;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 0px;
+        
+    }
+  .towns {
+    background-color: #fbe8a6;
+    justify-content: center;
+    
+  }
+  .towns section h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #303c6c;
+    text-shadow: 1px 1px 1px white;
+    margin: -70px 0px 20px 10px;
+    font-size: 3rem;
+  }
+  .towns section {
+    margin: 5px;
+    background-color: #b4dfe5;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.4);
+    padding-bottom: 10px;
+  }
+  .towns section img {
+    width: 100%;
+  }
+  .towns section h3 {
+    font-family: 'Fjalla', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 0px 10px 20px;
+  }
+  .towns section h4 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 0px 0px 20px;
+    font-size: 1.2rem;
+  }
+
+header {
+    background-color: #b4dfe5;
+    color: #303c6c;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow:1px 1px 2px #777;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+header img {
+    width: 88px;
+    padding: 10px;
+}
+table {
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+.herodiv {
+        margin: 10px auto;
+        position: relative;
+        display: flex;
+      }
+.herodiv img {
+      
+      display: flex;
+      }
+      
+.pic {
+    max-height: 400px;
+}
+.fall {
+    float: none;
+    max-width: 450px;
+    margin: 15px;
+    
+
+}
+
+.stats {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1rem;
+	box-shadow: 0 0 30px #111;
+    opacity: .7;
+    color: black;
+    
+}
+th, td {
+    justify-content: center;
+    color: #303c6c; 
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #b4dfe5;
+    box-shadow: 0 0 10px #777;
+  
+  }
+  .sun {
+    max-width: 50px;
+    border: none;
+  }
+  .map {
+    display: none;
+    border: 2px solid #bbb;
+    max-width: 600px;
+        
+    }
+/*.grid-container {
+    display: grid;
+    grid-gap: 23px;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin:10px;
+    
+  }
+  
+  .grid-item {
+    font-family: 'Fjalla One', sans-serif;
+    color: #303c6c;
+    padding: .25em;
+    background-color: #b4dfe5;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    border-radius: 5px;
+  }*/
+  
+  footer {
+    background-color: #b4dfe5;
+    color: #303c6c;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.map {
+    display: none;
+    border: 2px solid #bbb;
+    max-width: 600px;
+        
+    }
+.contact {
+    text-align: center;
+    font-size: 1.5em;
+      }
+      .social {
+        max-width: 50px;
+        border: none;
+    } 
+    
+h2 {
+    font-size: 2.5rem;
+    color: #f4976c;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;text-shadow:1px 1px 2px #000;
+}
+h3 {
+    font-size: 2rem;
+    color: #f4976c;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow:1px 1px 1px #000;
+
+}
+h4 {
+    font-size: 1.5em;
+}
+.subhead {
+    font-style: italic;
+    color: #f4976c;
+    margin-top: -20px;
+    text-shadow:.5px .5px 1px #000; 
+}
+nav a:hover {
+    background-color: #fbe8a6;
+    color: #36454f;
+}
+
+nav {
+	background-color: #303c6c;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+main {
+    margin:0 auto;
+  }
+  main section{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #fbe8a6;
+    color: #303c6c;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+  }
+  main {max-width:1020px; margin:0 auto;}
+
+.responsive li {
+	display: block;
+}
+.active {
+	color: #fbe8a6;
+}
+      
+ .social {
+     max-width: 50px;
+     border: none;
+ } 
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ 
+
+
+

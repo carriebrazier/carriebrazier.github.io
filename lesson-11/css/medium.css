@@ -1,0 +1,183 @@
+/*@media only screen and (min-width: 32.5em) {
+   
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+
+	.grid-container {
+        grid-template-columns: auto auto;
+	}
+
+    main {
+		
+        padding-left: 15px;
+        padding-right: 15px;
+	}
+   
+    h1 {
+        font-size: 3rem;
+    }
+    .subhead {
+        margin-top: -35px;
+	}
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+	
+            nav a:hover {
+                background-color: #fbe8a6;
+                color: #36454f;
+            }
+        
+	nav a {
+		font-size: 2rem;
+    }
+    .map {
+        text-align: center;
+        display: flex;
+        float: left;
+        Font-size: 3em;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+}*/
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+   
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main {
+		max-width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+	}
+   
+    h1 {
+        font-size: 3rem;
+    }
+    .subhead {
+        margin-top: -35px;
+	}
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+	
+            nav a:hover {
+                background-color: #fbe8a6;
+                color: #36454f;
+            }
+    .map {
+        text-align: center;
+        display: flex;
+        float: left;
+        Font-size: 3em;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .towns {
+        padding-bottom: 0px;
+    }
+    .towns section {
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+   
+    .towns section img {
+        float: left;
+        width: 65%;
+    }
+    .towns section h1 {
+        margin: 10px;
+        color: #303c6c;
+    }
+    .towns section h3, .towns section h4 {
+        margin-right: 10px;
+    }
+    .towns section {
+        overflow: auto;
+        padding: 0px;
+    }
+    .towns section:nth-child(2) img {
+        float: right;
+        padding: 0px;
+    }
+    .towns section:nth-child(2) {
+        text-align: center;
+    }
+   
+    
+     
+      
+    
+        h2 {
+            letter-spacing: .07rem;
+        }
+   
+	/* Grid *********************/
+			/*nav ul { 
+				display: grid;
+				/* grid-template-columns: repeat(5, 1fr); */
+				/*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+			}
+
+	/* Inline-Block             */
+	
+		/* nav {text-align: center;}
+			nav li {display: inline-block;} */
+	
+
+	/* Float                    */
+	/*
+			nav li {float:left; margin-right:15px;}
+			main {clear:both;}
+	*/
+
+/*******************************************************/
+	.pic {
+        max-height: 375px;
+    }
+	nav a {
+		font-size: 2rem;
+	}
+	.clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+	
+	main img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+    }
+    .fall {
+        float: right;
+    }
+}
