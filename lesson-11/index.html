@@ -42,8 +42,44 @@
         <div class="towns">  </div>
         <!--<h2>Preston, Idaho</h2>-->
 	<div class="herodiv">
-		<img class="pic" src="images/sky-pic.jpg">
-		<section class="stats">
+        <img class="pic" src="images/sky-pic.jpg">
+        <section class="stats">
+                <h4>Weather Summary</h4>
+                <p>Currently: <span id='description'>?</span</p>
+                <p>Temperature: <span id='temperature'>?</span> &deg;F</p>
+                <p>High: <span id='hightemp'>?</span> &deg;F</p>
+                <p class='windchill'>Wind Chill: <span id='windchill'>?</span> &deg;F</p>
+                <p>Humidity: <span id='humidity'>?</span>%</p>
+                <p>Wind Speed: <span id='windspeed'>10</span> mph</p>
+            </section>
+        </div>
+        <div id="forecast">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sun"><span id="names1"></span></th>
+                        <th class="sun"><span id="names2"></span></th>
+                        <th class="sun"><span id="names3"></span></th>
+                        <th class="sun"><span id="names4"></span></th>
+                        <th class="sun"><span id="names5"></span></th>
+                    </tr>
+                    <tr>
+                        <td class="sun"><img id="icon1" src="/" alt="/"><br /><span id="day1"></span>
+                            &#8457;</td>
+                        <td class="sun"><img id="icon2" src="/" alt="/"><br /><span id="day2"></span>
+                            &#8457;</td>
+                        <td class="sun"><img id="icon3" src="/" alt="/"><br /><span id="day3"></span>
+                            &#8457;</td>
+                        <td class="sun"><img id="icon4" src="/" alt="/"><br /><span id="day4"></span>
+                            &#8457;</td>
+                        <td class="sun"><img id="icon5" src="/" alt="/"><br /><span id="day5"></span>
+                            &#8457;</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+		<!--<section class="stats">
 			<h3>Weather Summary</h3>
 			<p>Currently: <span id="gender">Sunny</span</p>
 			<p>High: <span id="age">76*</span></p>
@@ -69,7 +105,7 @@
                     <td><img class="sun" src="images/rain-icon.gif"><br> 64</td>
                 </tr>
             </table>
-        </div>
+        </div>-->
         
             <section>
                 <h4>The Best Times And Places To View Fall Foliage In Idaho</h4>
@@ -112,8 +148,8 @@
     <footer>
         <p>&copy;<span id="year"></span> | Carrie S. Brazier | <span id="date"></span></p>
         <script src="/lesson-11/js/home.js"></script>
-      
-
+        <script src="/lesson-11/js/weatherapi.js"></script>
+        <script src="/lesson-11/js/table.js"></script>
     </footer>
 </body>
 </html>
