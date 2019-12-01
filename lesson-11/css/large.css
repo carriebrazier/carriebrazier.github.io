@@ -25,7 +25,9 @@
             padding: 0px;
             width: 100%;
         }
-
+.map {
+    margin-left: 150px;
+}
 h2 {
     font-size: 2rem;
 }

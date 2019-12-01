@@ -31,10 +31,10 @@
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="/lesson-11/index.html" class="active">Home</a></li>
             <li><a href="/lesson-11/preston.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="/lesson-11/fishhaven.html">Fish Haven</a></li>
             <li><a href="/lesson-11/stormcenter.html">Storm Center</a></li>
-            <li><a href="/lesson-7/gallery-7.html">Gallery</a></li>
+            <li><a href="/lesson-11/gallery.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -42,7 +42,7 @@
         <div class="towns">  </div>
         <!--<h2>Preston, Idaho</h2>-->
 	<div class="herodiv">
-        <img class="pic" src="images/sky-pic.jpg">
+        <img class="pic" src="images/sky-pic.jpg" alt="image of the sky">
         <section class="stats">
                 <h4>Weather Summary</h4>
                 <p>Currently: <span id='description'>?</span</p>
@@ -53,7 +53,7 @@
                 <p>Wind Speed: <span id='windspeed'>10</span> mph</p>
             </section>
         </div>
-        <div id="forecast">
+        <!--<div id="forecast">
             
             <table>
                 <thead>
@@ -79,7 +79,7 @@
                 </tbody>
             </table>
             </div>
-		<!--<section class="stats">
+		<section class="stats">
 			<h3>Weather Summary</h3>
 			<p>Currently: <span id="gender">Sunny</span</p>
 			<p>High: <span id="age">76*</span></p>
@@ -109,7 +109,7 @@
         
             <section>
                 <h4>The Best Times And Places To View Fall Foliage In Idaho</h4>
-                <img class="fall" src="images/fall-image.jpg">
+                <img class="fall" src="images/fall-image.jpg" alt="image of a tree in fall">
                 <p>Labor Day has come and gone, the weather is finally cooling down, and the leaves are gradually 
                         starting to change. It seems like we can finally say goodbye to summer, and that means saying 
                         hello to one of the most beautiful times to be in Idaho. Fall is especially magical for many reasons, 
@@ -133,23 +133,40 @@
                         
                 </p>
             </section> 
-            <section>
-                <div class="contact">
-                    <h3>Contact information</h3>  
+           <!-- <section class="clearfix">
+                    <div class="contact">
+                        <h3>Contact information</h3>
+                        <img class="map" src="images/map.jpg">
+                      
                     <p>Search The Skies</p>
                     <p>PO Box 999</p>
                     <p>Preston, ID 88888</p>
-                    <img class="social" src="images/Facebook-icon.gif">
-                    <img class="social" src="images/tweet-icon.gif">
-                    <img class="social" src="images/insta-icon.gif">
+                    <img class="social" src="images/Facebook-icon.gif" alt="facebook logo">
+                    <img class="social" src="images/tweet-icon.gif" alt="twitter logo">
+                    <img class="social" src="images/insta-icon.gif" alt="instagram logo">
                 </div>
-            </section>
+            </section>-->
     </main>
     <footer>
-        <p>&copy;<span id="year"></span> | Carrie S. Brazier | <span id="date"></span></p>
+        <section class="clearfix">
+            <div class="contact">
+                    <h3>Contact information</h3>
+                    <img class="map" src="images/map.jpg">
+                  
+                <p>Search The Skies</p>
+                <p>PO Box 999</p>
+                <p>Preston, ID 88888</p>
+                <img class="social" src="images/Facebook-icon.gif" alt="facebook logo">
+                <img class="social" src="images/tweet-icon.gif" alt="twitter logo">
+                <img class="social" src="images/insta-icon.gif" alt="instagram logo">
+            </div>
+        <section class="copy"><p>&copy;<span id="year"></span> | Carrie S. Brazier | <span id="date"></span></p>
+        </section>
+        </div>
+        </section>
         <script src="/lesson-11/js/home.js"></script>
         <script src="/lesson-11/js/weatherapi.js"></script>
-        <script src="/lesson-11/js/table.js"></script>
+        <!--<script src="/lesson-11/js/table.js"></script>-->
     </footer>
 </body>
 </html>

@@ -9,6 +9,9 @@
         font-family: 'Fjalla One', sans-serif;
         
     }
+    table {
+        display: none;
+    }
     /*body {
         background-color:  #b4dfe5; 
         font-family: 'Fjalla One', sans-serif;
@@ -130,8 +133,8 @@ header img {
 }
 table {
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -145,7 +148,7 @@ table {
         display: flex;
       }
 .herodiv img {
-      
+      max-height: 400px;
       display: flex;
       }
       
@@ -159,6 +162,11 @@ table {
     
 
 }
+.geyser {
+    border: 2px solid #303c6c;
+    border-top: 0px;
+    max-width: 450px;
+}
 
 .stats {
 	position: absolute;
@@ -170,6 +178,7 @@ table {
 	box-shadow: 0 0 30px #111;
     opacity: .7;
     color: black;
+    border-radius: 5px;
     
 }
 th, td {
@@ -182,16 +191,21 @@ th, td {
     border: 1px solid rgb(0, 0, 0);
     background-color: #b4dfe5;
     box-shadow: 0 0 10px #777;
+    border-radius: 5px;
+    border: none;
   
   }
   .sun {
     max-width: 50px;
-    border: none;
+    border: 0px;
+    border-image: 0px;
   }
   .map {
     display: none;
     border: 2px solid #bbb;
-    max-width: 600px;
+    max-width: 300px;
+    margin-left: 20px;
+    padding-right: -20px;
         
     }
 /*.grid-container {
@@ -216,28 +230,21 @@ th, td {
   footer {
     background-color: #b4dfe5;
     color: #303c6c;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     padding: 10px;
     border-radius: 5px;
-}
-.map {
-    display: none;
-    border: 2px solid #bbb;
-    max-width: 600px;
-        
-    }
-.contact {
     text-align: center;
-    font-size: 1.5em;
+    
+}
+
+.contact {
+    
+    font-size: 1.25em;
+    text-align: center;
       }
-      .social {
-        max-width: 50px;
-        border: none;
-    } 
+   
     
 h2 {
+    padding-top: 20px;
     font-size: 2.5rem;
     color: #f4976c;
     font-family: 'Fjalla One', sans-serif;
@@ -309,6 +316,11 @@ main {
      max-width: 50px;
      border: none;
  } 
+ .copy { 
+     margin-top: 50px;
+     text-align: center;
+
+ }
  .clearfix:after {
     content: "";
     display: table;
