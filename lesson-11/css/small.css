@@ -109,6 +109,33 @@ main {
     margin: 0px 0px 0px 20px;
     font-size: 1.2rem;
   }
+  .events {
+    text-align: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+  .events section {
+    justify-content: center;
+    background-color: #303c6c;
+    
+  }
+  .events section h2{
+    font-family: 'Fjalla', sans-serif;
+    color: #b4dfe5;
+    font-size: 1.5rem;
+    margin-top: -15px;
+    text-align: center;
+    
+    
+  }
+  .events section p {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 0px 10px 20px;
+    font-size: 1rem;
+    color: #b4dfe5;
+    text-align: center;
+  }
 
 header {
     background-color: #b4dfe5;
