@@ -8,6 +8,12 @@
         margin-right: auto;
         
     }
+    .stlouis {
+        margin-right: 30px;
+        padding-right: 50px;
+        margin-left: 30px;
+        padding-left: 50px;
+    }
     
      .towns section h1 {
         font-size: 2rem;

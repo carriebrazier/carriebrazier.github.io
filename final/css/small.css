@@ -237,6 +237,21 @@ th, td {
     padding-right: -20px;
         
     }
+    .schedule {
+      float: right;
+      border-radius: 5px;
+      padding-right: 20px;
+      padding-top: 30px;
+
+    }
+    fieldset{
+      padding: 0.5em 0.75em 0.75em;
+  }
+  form legend {
+      color: #373737;
+      margin: 0 1rem;
+      padding: 1rem .5rem;
+  }
     .reception img {
     Min-width: 300px;
     max-width: 100%;
@@ -264,7 +279,12 @@ th, td {
   .services {
     padding-left: 50px;
   }
- 
+  .stl {
+    float: right;
+    max-width: 600px;
+    border: none;
+    padding-bottom: 20px;
+    }
   .button {
     font-size: 1.25rem;
     border-style: solid;
@@ -333,7 +353,7 @@ h3 {
 
 }
 h4 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .subhead {
     font-style: italic;
@@ -379,17 +399,18 @@ main {
     border: 2px solid grey;
   }
   main section img{
-    
-    padding-top: 30px;
+  padding-top: 30px;
   float: none;
   border: none;
   }
-
+.stlouis img {
+float: right;
+}
 .responsive li {
 	display: block;
 }
 .active {
-	color: #f4f4f4;
+	color: #373737;
 }
       
  .social {
