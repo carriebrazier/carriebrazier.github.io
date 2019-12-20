@@ -1,0 +1,92 @@
+!<DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Temple Inn and Suites</title>
+            <meta name="description" content="weather siteplan">
+            <link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+            <link rel= "shortcut icon" href="images/favicon.ico">
+            <link href="css/normalize.css" rel="stylesheet">
+            <link href="css/small-8.css" rel="stylesheet">
+            <link href="css/medium-8.css" rel="stylesheet">
+            <link href="css/large-8.css" rel="stylesheet">
+        </head>
+        <body>
+                
+            <header>
+                <picture>
+                    <img src="images/Icon.gif" alt="Weather logo">
+                </picture>
+                <section class="headings">
+                    <h1>Temple Inn and Suites</h1>
+                    <div class="subhead"></div>
+                </section>
+            </header>
+            <nav class="navigation">
+                    <ul>
+                            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                            <li><a href="/final/index.html" class="active">Home</a></li>
+                            <li><a href="/final/temples.html">Temples</a></li>
+                            <li><a href="/final/reservations.html">Reservations</a></li>
+                            <li><a href="/final/services.html">Services</a></li>
+                            <li><a href="/final/contact.html">Contact</a></li>
+                            
+                        </ul>
+            </nav>
+            <main>
+                    <form id="myform">
+                            <h2>Registration</h2>
+                           
+                            <fieldset>
+                                <legend>Contact information</legend>
+                                <label>Full Name <input type="text" name="fullName" pattern="A-Za-z0-9[5]" required=""></label>
+                                <label>Email <input type="text" name="email" placeholder="yourname@email.com"></label>
+                                <label>Phone <input type="tel" name="phoneNumber" required=""></label>
+                                <label>Zip Code <input type="number" name="zipCode" required=""></label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Reservations</legend>
+                                <fieldset>
+                                <label>Location
+                                        <select>
+                                            <option value="" disabled="" selected="">▾ Select location...</option>
+                                            <option value="St Louis">St. Louis</option>
+                                            <option value="San Diego">San Diego</option>
+                                            <option value="Nauvoo">Nauvoo</option>
+                                            <option value="Kansas City">Kansas City</option>
+                                        </select>
+                                    </label>
+                                
+                                        <label for="theDate">Date:
+                                    <input type="date" name="theDate"></label><br>
+                                    <label>Number of Guests <input type="number" name="zipCode" required=""></label>
+                                    <label>Number of rooms <input type="number" name="zipCode" required=""></label>
+                                    <label>Type of Room
+                                            <select>
+                                                <option value="" disabled="" selected="">▾ Select room type...</option>
+                                                <option value="Single">One Queen Bed</option>
+                                                <option value="double">Two Queen beds</option>
+                                                <option value="Family">Two Queen beds and full pullout</option>
+                                                <option value="condo">Two bedroom condo</option>
+                                            </select>
+                                        </label>
+                            </fieldset>
+                                    <legend>Comments/ Special accomidations</legend>
+                                    <label for="textarea"><textarea rows="10" cols="50" type="text"
+                                            placeholder="Enter Info Here..."></textarea></label>
+                                </fieldset>
+                            <input onclick="submitform()" class="submitBtn" type="button"  value="Submit Reservation">
+                        </form>
+            </main>
+            <footer>
+                <p>&copy;<span id="year"></span> | Carrie S. Brazier | <span id="date"></span></p>
+        
+        <script src="js/js.js"></script> 
+             
+        
+            </footer>
+        </body>
+        </html>
