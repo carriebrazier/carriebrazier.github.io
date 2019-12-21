@@ -63,7 +63,6 @@ var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
    const townId = document.getElementById('town').dataset.townid;
 console.log(townId);
 
-// const prestonId = 5604473;
 const appId = "9cabcd53024a11057d12175fbbcc9858";
 const weatherAPIURL = `https://api.openweathermap.org/data/2.5/weather?${townId}&units=imperial&APPID=${appId}`;
 const forecastAPIURL = `https://api.openweathermap.org/data/2.5/forecast?id=${townId}&units=imperial&APPID=${appId}`;
